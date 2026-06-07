@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 model = joblib.load('model.pkl')
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('scaler (1).pkl')
 
 st.set_page_config(page_title="Student Performance Predictor", page_icon="🎓")
 st.title("🎓 Student Performance Predictor")
